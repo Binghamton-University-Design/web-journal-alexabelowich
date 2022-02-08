@@ -2,23 +2,31 @@
 
 /* vars */
 :root {
-	--background-color: #0D3BE8;
-	--body-color: #111;
+	--background-color: #F3F1FF;
+	--body-color: #OD3BE8;
 }
 
 body {
 	margin: 0;
-	font-family: "Open-Sans-Condensed", monospace;
+	font-family: "Playfair-Display", monospace;
 	font-weight: 300;
+  background-color: #0D3BE8;
+  color: white;
 }
 
 h1, h2, h3, h4, p {
 	margin-top: 0;
 	margin-bottom: 1em;
+  font-family: "Playfair-Display";
 }
 
 h1, h2 {
 	font-weight: 700;
+}
+
+h3 {
+  font-family: "Playfair-Display";
+  font-weight: 500;
 }
  
 
@@ -90,6 +98,7 @@ h1, h2 {
   display: flex;
   align-items: center;
   height: 70vh;
+  width:  100%;
 }
 
 #work h3, #page h3 {
@@ -99,7 +108,7 @@ h1, h2 {
 }
 
 #work h3 a, #page h3 a {
-  color: var(--body-color);
+  color: #0D3BE3;
   text-decoration: none;
 }
 
@@ -110,10 +119,10 @@ h1, h2 {
 }
 
 .work-item .inner .work-inside {
-  color: #0D3BE8;
+  color: #0D3BE3;
   padding: 2rem;
   width: 100%;
-  background-color: var(--body-color);
+  background-color: white;
   text-align: right;
 }
 
@@ -150,7 +159,7 @@ h1, h2 {
 
 .page-item .caption {
   font-size: .75rem;
-  color: #0D3BE8;
+  color: ##FFCFEC;
   display: block;
   width: 100%;
   margin-top: .5rem;
@@ -162,7 +171,7 @@ h1, h2 {
   margin: 0;
   font-size: .85rem;
   padding: 0 4px;
-  color: var(--background-color);
+  color: #F3F1FF;
   display: inline-block;
   background-color: var(--body-color);
 }
@@ -174,13 +183,13 @@ h1, h2 {
 }
 
 .page-item h2 a:hover {
-  color: var(--body-color);
+  color: #FFCFEC;
   text-decoration-color: var(--body-color); 
 }
 
 .page-item p a {
   color: var(--body-color);
-  text-decoration-color: var(--body-color); 
+  text-decoration-color: #F3F1FF; 
 }
 
 
@@ -190,9 +199,6 @@ h1, h2 {
   padding: 2em;
   text-align: center;
   font-size: .85rem;
-}
-
-#footer p:last-child {
   margin-bottom: 0;
 }
 
@@ -208,7 +214,7 @@ h1, h2 {
 @media all and (max-width: 699px) { 
 
   #intro-holder h1 {
-    font-size: 2.2rem
+    font-size: 2.2rem;
   }
 
   .work-item .inner .work-inside {
@@ -235,4 +241,12 @@ h1, h2 {
     font-size: 18px;
   }
 
+}
+
+#topnav {
+  font-family: "Playfair-Display";
+}
+
+#author {
+  font-size: 2rem;
 }
