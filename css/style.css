@@ -60,6 +60,12 @@ h3 {
   width: auto;
 }
 
+#logo img {
+  margin-right: .25rem;
+  height: 3.6rem;
+  width: auto;
+}
+
 #topnav ul {
   list-style: none;
   padding-left: 0;
